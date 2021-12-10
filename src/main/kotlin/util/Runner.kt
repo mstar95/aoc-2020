@@ -10,7 +10,7 @@ import kotlin.time.measureTimedValue
 @ExperimentalTime
 object Runner {
 
-    private val reflections = Reflections("days")
+    private val reflections = Reflections("2021")
 
     @JvmStatic
     fun main(args: Array<String>) {
